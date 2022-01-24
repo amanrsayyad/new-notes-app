@@ -4,7 +4,12 @@
   gap: 20px;
   padding: 30px;
 }
-
+@media screen and (max-width: 768px){
+  .App {
+    gap: 0px;
+    padding: 0.2px;
+  }
+}
 .custom-scroll::-webkit-scrollbar {
   width: 8px;
 }
